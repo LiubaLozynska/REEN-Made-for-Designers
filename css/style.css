@@ -125,14 +125,14 @@ h1{
 .button-blue:focus{
     outline: none;
 }
-
-.carousel-indicators-style li{
+.carousel-indicators li{
     width: 15px;
+    min-width:15px;
     height: 15px;
-    border-radius: 100%;
+    border-radius: 50%;
     background-color: #506a85;
 }
-.carousel-indicators-style li:active{
+.carousel-indicators li.active{
     background-color: #00bc9c;
 }
 
@@ -142,7 +142,6 @@ h1{
 ol{
     background-color: white;
     border-radius: 5px;
-    width:150px;
 }
 .control-style{
     width:30px;
