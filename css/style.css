@@ -117,7 +117,7 @@ h1{
     margin-top:20px;
 }
 .button-blue:focus{
-    outline: none;
+   outline: none;
 }
 .carousel-indicators li{
     width: 15px;
@@ -168,7 +168,7 @@ ol{
     to {color:white;top: 0px;}
 }
 @keyframes button-appear{
-    from {color: transparent; top: -10px;background-color: transparent}
+    from {color: transparent; top: -10px; background-color: transparent}
     to {color:white;top: 0px; background-color: #00bc9c}
 }
 @keyframes button-appear-left{
